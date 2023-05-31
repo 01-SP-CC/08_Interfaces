@@ -29,9 +29,9 @@ public class App {
     }
 
     // Überladen für Bird(s) ...
-    private static void pollObj(Bird bee) {
-        output(bee.hasFeathers());
-        output(bee.fly());
+    private static void pollObj(Bird obj) {
+        output(obj.hasFeathers());
+        output(obj.fly());
     }
 
    
