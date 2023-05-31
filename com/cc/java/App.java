@@ -27,6 +27,12 @@ public class App {
         output(bee.fly());
     }
 
+    // Überladen für Bird(s) ...
+    private static void pollObj(Bird bee) {
+        output(bee.hasFeathers());
+        output(bee.fly());
+    }
+
    
     private static void output(String outputStr) {
         System.out.println(outputStr);
