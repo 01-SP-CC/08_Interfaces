@@ -12,6 +12,7 @@ public class App {
         pollObj(queen);
         pollObj(worker);
         pollObj(drone);
+        output("--------------------------------");
         pollObj(bird);
 
         // HoneyBee ist abstrakt --> Fehler!
